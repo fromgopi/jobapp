@@ -5,3 +5,7 @@ spring:
       database: Courses_Jobs
       repositories:
         type: auto
+  datasource:
+      url: jdbc:mysql://localhost:3306/handbook_crm
+      username: root
+      password: root

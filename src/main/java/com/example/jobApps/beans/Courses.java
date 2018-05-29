@@ -10,48 +10,66 @@ public class Courses {
 
     @Id
     private Object _id;
-    private List<String> _instructor;
-    private String _title;
-    private String _projectDesc;
-    private String _subtitle;
+    private List<String> instructors;
+    private String title;
+    private String project_name;
+    private String subtitle;
+    private String project_description;
+    private String summary;
 
-    public Object get_id() {
+    /*public Object getId() {
         return _id;
     }
 
-    public void set_id(Object _id) {
+    public void setId(Object id) {
         this._id = _id;
+    }*/
+
+    public List<String> getInstructors() {
+        return instructors;
     }
 
-    public List<String> get_instructor() {
-        return _instructor;
+    public void setInstructors(List<String> instructors) {
+        this.instructors = instructors;
     }
 
-    public void set_instructor(List<String> _instructor) {
-        this._instructor = _instructor;
+    public String getTitle() {
+        return title;
     }
 
-    public String get_title() {
-        return _title;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public void set_title(String _title) {
-        this._title = _title;
+    public String getProject_name() {
+        return project_name;
     }
 
-    public String get_projectDesc() {
-        return _projectDesc;
+    public void setProject_name(String project_name) {
+        this.project_name = project_name;
     }
 
-    public void set_projectDesc(String _projectDesc) {
-        this._projectDesc = _projectDesc;
+    public String getSubtitle() {
+        return subtitle;
     }
 
-    public String get_subtitle() {
-        return _subtitle;
+    public void setSubtitle(String subtitle) {
+        this.subtitle = subtitle;
     }
 
-    public void set_subtitle(String _subtitle) {
-        this._subtitle = _subtitle;
+    public String getProject_description() {
+        return project_description;
+    }
+
+    public void setProject_description(String project_description) {
+        this.project_description = project_description;
+    }
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
     }
 }
